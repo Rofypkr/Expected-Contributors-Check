@@ -1,0 +1,11 @@
+msgid "plugins.generic.expectedContributorsCheck.name"
+msgstr "Expected Contributors Check"
+
+msgid "plugins.generic.expectedContributorsCheck.description"
+msgstr "Adds a numeric field to the submission form to check the expected number of contributors."
+
+msgid "plugins.generic.expectedContributorsCheck.label"
+msgstr "Expected Number of Contributors"
+
+msgid "plugins.generic.expectedContributorsCheck.error"
+msgstr "The expected number of contributors does not match the actual number."
