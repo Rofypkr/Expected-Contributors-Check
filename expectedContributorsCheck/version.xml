@@ -1,17 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+<!DOCTYPE plugin SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
 <!--
-  * version.xml
+  * @file plugins/generic/ExpectedContributorsCheck/version.xml
   *
-  * Copyright (c) 2025-2030 ICR Publication icrp.org,uk
-  * Distributed under the
-GNU GPL v3. For full terms see the file docs/COPYING.
+  * Copyright (c) 2025–2030
+  * ICR Publications Ltd, UK (https://icrp.org.uk)
   *
-  * Plugin version information.
-  -->
-<version>
-	<application>ExpectedContributorsCheck</application>
-	<type>plugins.generic</type>
-	<release>1.0.0.0</release>
-	<date>2025-05-19</date>
-</version>
+  * Distributed under the GNU GPL v3.
+  * For full terms see the file docs/COPYING.
+-->
+
+<plugin category="generic" product="ExpectedContributorsCheck">
+
+  <name locale="en_US">Expected Contributors Check</name>
+
+  <summary locale="en_US">
+    Ensures that the number of contributors added to a submission matches the number declared by the author.
+  </summary>
+
+  <description locale="en_US"><![CDATA[
+    <p>
+      This plugin adds a validation step to the submission workflow to ensure
+      that authors add the expected number of contributors before completing
+      submission. It helps journals maintain accurate authorship records and
+      prevents incomplete contributor metadata. ICR Publications Ltd, UK
+    </p>
+  ]]></description>
+
+  <homepage>https://icrp.org.uk</homepage>
+
+  <maintainer>
+    <name>ICR Publications</name>
+    <institution>ICR Publications Ltd</institution>
+    <email>publicationst@icrp.org.uk</email>
+  </maintainer>
+
+  <!-- Release for OJS 3.4 -->
+  <release date="2025-05-19" version="1.0.0.0">
+    <compatibility application="ojs2">
+      <version>3.4.0.0</version>
+    </compatibility>
+    <description>
+      Initial release compatible with OJS 3.4.
+    </description>
+  </release>
+
+  <!-- Release for OJS 3.5 -->
+  <release date="2025-05-19" version="1.0.0.0">
+    <compatibility application="ojs2">
+      <version>3.5.0.0</version>
+    </compatibility>
+    <description>
+      Initial release compatible with OJS 3.5.
+    </description>
+  </release>
+
+</plugin>
